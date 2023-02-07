@@ -47,7 +47,7 @@ module "bigquery-dataset-gasolina" {
 module "bucket-raw" {
   source  = "./modules/gcs"
 
-  name       = "data-pipeline-stack-combustiveis-brasil-raw"
+  name       = "data-pipeline-insight-combustiveis-brasil-raw"
   project_id = var.project_id
   location   = var.region
 }
