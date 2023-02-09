@@ -27,7 +27,7 @@ def put_file_to_gcs(output_file: str, bucket_name: str, content):
 
 @app.get('/')
 async def read_root():
-    return {"Hello": "World"}
+    return {"Status": "OK"}
 
 
 def get_dados(remote_url):

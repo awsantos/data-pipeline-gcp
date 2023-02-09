@@ -1,0 +1,1 @@
+gcloud run deploy insight-gcp-data-pipeline --source . --region us-central1
